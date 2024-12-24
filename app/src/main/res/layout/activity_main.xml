@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    >
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp"
+        android:text="@string/label_title"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextPeso"
+        android:layout_height="wrap_content"
+        android:hint="@string/label_peso"
+        android:inputType="number"
+        android:scaleType="center"
+        android:maxLength="10"
+        android:layout_width="100dp"
+        android:autofillHints="Peso"
+        android:minHeight="48dp"
+
+        />
+
+    <EditText
+        android:id="@+id/editTextHeight"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/label_height"
+        android:inputType="numberDecimal"
+        android:scaleType="center"
+        android:maxLength="10"
+        android:autofillHints="Height"
+        android:minHeight="48dp"
+        />
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_send"
+        android:layout_gravity="center"
+
+        android:layout_marginBottom="16dp"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextView"
+        android:scaleType="center"
+        android:minHeight="100dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>

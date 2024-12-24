@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Cálculo do IMC</string>
+    <string name="label_peso">Peso</string>
+    <string name="label_height">Altura</string>
+    <string name="label_send">Enviar</string>
+    <string name="label_title">IMC</string>
+</resources>
